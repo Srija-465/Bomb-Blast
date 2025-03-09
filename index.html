@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        roboto: ["Roboto"]
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <div class="font-['Roboto']">
+        <div class="timer-container text-center bg-[#00bafc] h-screen   p-5">
+            <input type="text" class="user-input text-center border-0 rounded-md p-2" id="defuser" />
+            <br />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/time-bomb-img.png" class="bomb-image w-[150px]  m-auto mt-10" />
+            <p class="timer-display text-white text-[50px]" id="timer">10</p>
+        </div>
+    </div>
+</body>
+<script src = "style.js"></script>
+</html>
